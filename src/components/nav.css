@@ -1,0 +1,130 @@
+.navbar_container{
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    height: var(--header-height);
+    width: 100%;
+    z-index: 1000;
+    background: #191315;
+    box-shadow: 0 2px 24px hsl(0deg 0% 72% / 25%);
+    padding-left: 30px;
+    padding-right: 30px;
+    transition-duration: .5s;
+    min-height: 70px;
+    display: flex;
+    opacity: 0.9;
+}
+
+.login_btn{
+    min-width: 70px;
+    height: 37px;
+    background-color: #FFFFFF;
+    border: 1px solid #146fcb;
+    border-radius: 8px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    color: #156fc9;
+    text-align: center;
+    margin: 18px 8px 17px;
+}
+.btnMargin{
+    margin: auto 0px;
+}
+.linkBtn{
+    min-width: 70px;
+    padding: 10px 15px;
+    height: 37px;
+    /* background-color: #FFFFFF; */
+    /* border: 1px solid #146fcb; */
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 37px;
+    color: #a2a5aa;
+    text-align: center;
+    margin: 18px 8px 17px;
+    text-decoration: none;
+}
+
+.nav_name{
+    color: #a2a5aa;
+    padding-left: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: -3px;
+}
+.navImg{
+    color: black;
+    background: white;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+.navIcon{
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.model{
+    padding: 50px;
+    margin-top: 40px;
+    background-color: #303034;
+    border-radius: 6px;
+    /* opacity: 0.5; */
+}
+.model_head{
+    display: flex;
+    flex-direction: column;
+}
+
+.logOutBtn{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    background-color: #5866c7;
+    transition: background-color .4s ease;
+    min-width: 70px;
+    height: 37px;
+    border-radius: 8px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 37px;
+    clear: both;
+    text-transform: uppercase;
+    margin: 18px 8px 17px;
+    letter-spacing: .02em;
+}
+
+.createUser{
+    background-color: #22cabf;
+
+    padding: 0px 15px;
+    border-radius: 8px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 37px;
+    color: #FFFFFF !important;
+    text-align: center;
+    margin: 0px 8px 17px;
+    text-decoration: none;
+}
+
+.navSvg{
+    height: 100%;
+    width: 100vw;
+    object-fit:cover;
+}
