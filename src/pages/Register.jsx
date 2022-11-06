@@ -20,7 +20,7 @@ const Register = (props) => {
     password: "",
     number: "",
     aadhar: "",
-    type:"Organization"
+    type:"User"
   });
   // user data error
   const [formDataError, setformDataError] = useState({
@@ -312,7 +312,7 @@ const Register = (props) => {
             )}
         {formData.type !== 'Organization' &&  <div onClick={()=> setformData({...formData, type:"Organization"})  } className="registerLisk" >Register As a Organization </div> }
         {formData.type !== 'User' &&  <div onClick={()=> setformData({...formData, type:"User"})  } className="registerLisk" >Register As a User </div> }
-        {formData.type !== 'Validatir' &&  <div onClick={()=> setformData({...formData, type:"Validatir"})  } className="registerLisk" >Register As a Validatir </div> }
+        {/* {formData.type !== 'Validatir' &&  <div onClick={()=> setformData({...formData, type:"Validatir"})  } className="registerLisk" >Register As a Validatir </div> } */}
        
         </form>
        

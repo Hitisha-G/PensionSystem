@@ -14,11 +14,11 @@ const Navbar = (props) => {
   const [showPopover, setshowPopover] = useState(false);
 
   useEffect(() => {
-    // if (user?.type) {
+    if (user?.type) {
 
-    // } else if (!user?.type) {
-    //   History('/register');
-    // }
+    } else if (!user?.type) {
+      History('/register');
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
